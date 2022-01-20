@@ -1,0 +1,24 @@
+* {
+    font-size: 36px;
+    font-family: "Roboto"
+  }
+  
+  i {
+    color: blue;
+  }
+  
+  p {
+    animation-name: go-down;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes go-down {
+    50% {
+      transform: rotate(45deg);
+    }
+    100% {
+      margin-top: 500px;
+      transform: rotate(45deg);
+    }
+  }
